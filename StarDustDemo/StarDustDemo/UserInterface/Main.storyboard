@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HIl-xn-bhF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Uyg-GC-vcX">
+            <objects>
+                <viewController id="HIl-xn-bhF" customClass="ViewController" customModule="StarDustDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="soR-z8-R3R"/>
+                        <viewControllerLayoutGuide type="bottom" id="RU4-jP-eaW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ijw-Ic-3Nb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIG-P1-HJH">
+                                <rect key="frame" x="64" y="170" width="193" height="45"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wIG-P1-HJH" firstAttribute="centerX" secondItem="ijw-Ic-3Nb" secondAttribute="centerX" id="Iu2-h2-7B3"/>
+                            <constraint firstItem="wIG-P1-HJH" firstAttribute="top" secondItem="soR-z8-R3R" secondAttribute="bottom" constant="150" id="UOv-Yc-brF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="consWelcomeTop" destination="UOv-Yc-brF" id="45t-tm-hYY"/>
+                        <outlet property="lblWelcome" destination="wIG-P1-HJH" id="apT-mm-CsD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9GL-A7-Kbz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157" y="305"/>
+        </scene>
+    </scenes>
+</document>
