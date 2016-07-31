@@ -61,7 +61,7 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate
         starView.tag = starCount
         
         starView.frame = CGRectMake(CGFloat(arc4random_uniform(320)), 0.0, starSize, starSize)
-        starView.image = UIImage(named: "star1")
+        starView.image = UIImage(named: "star")
         self.view.addSubview(starView)
         
         self.gravityBehavior.addItem(starView)
